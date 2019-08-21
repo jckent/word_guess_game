@@ -5,22 +5,54 @@
 
 <head>
     <h1>Who's That Pokemon?</h1>
-    <!--bootstrap-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 </head>
 
 <body>
 
     <div>
-        <!--variables for win/loss-->
+        
     </div>
-    <!--row-->
-    <!--jumbotron for guessing area col-md-8-->
-    <!--jumbotron for img col-md-4-->
+<div class="container">
+    <row>
+        <div class="col-md-12">
+            <div class="guessing-field">
+            <div class="container">
+              <p class="lead">Press any key to start guessing!</p>
+              <h1 class="display-4"></h1>
+            </div>
+          </div>
+        </div>
+    </row>
 
-    <!--row-->
-    <!--jumbotron for guesses/remaining guesses col-md-4-->
-    <!--pokeball img col-md-4 -->
-    <!--jumbotron for win/loss-->
+
+
+
+    <row>
+        <div class="col-md-4">
+            <div class="other-guesses" style="width: 18rem;">
+                    <div class="card-body">
+                      <h5 class="remaining-guesses">guesses remaining</h5>
+                      <h6 class="bad-guesses">used letters</h6>
+                      <p class="card-text">bad guesses here</p>
+                    </div>
+                  </div>
+        </div>
+
+        <div class="col-md-4">
+            <img src= "assets/images/pokeball.png" alt=pokeball height="200" width="200" />
+        </div>
+
+        <div class="col-md-4">
+            <div class="card" style="width: 18rem;">
+                <div class="win-loss">
+                        <h5 class="win"Games Won: </h5>
+                        <h6 class="loss">Games lost:</h6>
+                    </div>
+            </div>
+        </div>
+    </row>
+</div>
 
 </body>
 
