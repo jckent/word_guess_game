@@ -1,0 +1,6 @@
+* {
+    @font-face {
+        font-family: PokemonGB;
+        src: "assets/fonts/PokemonGB" format('truetype');
+      }
+}
