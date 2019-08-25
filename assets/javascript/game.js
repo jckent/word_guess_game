@@ -29,6 +29,7 @@ for (var i=0; i< blankLetters; i++) {
 
 document.getElementsByClassName("guessing-field").innerHTML= " " progress.join(" ");
 
+var guessChecker = false;
 
 var answerPokemon = [];
 for (var i=0; i< pokemon.length; i++) {
